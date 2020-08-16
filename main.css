@@ -1,0 +1,105 @@
+body{
+    /* background-color: aquamarine; */
+    /* width: 90wv; */
+    height: 50hv;
+    padding:10em;
+}
+
+.main{
+    /* padding: 30px; */
+    /* width: fit-content; */
+    height: fit-content;
+    position: relative;
+    height: 80%;
+}
+
+.manrunning{
+    /* padding: 10%;
+    width: 20%; */
+    height: 50%;
+    width: 10em;
+    margin-left: 10em;
+}
+
+
+.position {
+width: 100% !important;
+height: 100% !important;
+top: 0px !important;
+left: 0px !important;
+z-index: -99999 !important;
+border: none !important;
+background: transparent !important;
+}
+
+
+.baseimg{
+width: 100%;
+position: relative;
+}
+
+.hurdle{
+    position: absolute;
+    justify-content: center;
+    left: 50%;
+    top: 51%;
+    z-index: -1;
+}
+
+.smhurdle{
+    position: absolute;
+    justify-content: center;
+    left: 40%;
+    top: 51%;
+    z-index: -1;
+}
+
+.xshurdle{
+    position: absolute;
+    justify-content: center;
+    left: 80%;
+    top: 51%;
+    z-index: -1;
+}
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    align-items: center;
+    justify-content: center;
+    background-color: DodgerBlue;
+    /* text-align: center; */
+    color: white;
+    /* width: 100px; */
+    /* margin: 12px; */
+    /* line-height: 175px; */
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.imagesbasehurdle .hurdles{
+display: flex;
+flex-direction: column;
+bottom: 0%;
+justify-content: flex-end;
+margin-top: 100%;
+}
+
+.hurdles{
+    display: block;
+    margin-left: 10em;
+    /* margin-bottom: 15em;
+    position: absolute; */
+    /* flex-direction: row; */
+    /* top: 0%; */
+    /* justify-content: flex-start; */
+    /* margin-top: 100%; */
+    }
+    
+    .hurdle1 {
+        margin-right: 17em;
+    }
+
